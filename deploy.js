@@ -1,11 +1,13 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
+const mnemonicMetamask = 'WRITE MNEMONIC HERE';
+const infuraUrl = 'INFURA URL HERE';
 
 //needs 2 objects
 const provider = new HDWalletProvider(
-    'monster own month lunar shine trumpet estate maximum race busy test common',
-    'https://rinkeby.infura.io/mLBsgHLMbluEMNziJmut'
+    mnemonicMetamask,
+    infuraUrl
 );
 
 const web3 = new Web3(provider);
