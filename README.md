@@ -30,6 +30,13 @@ Created a small contract using technologies such as:
 
 Deployed on Rinkeby test network
 
+### Execute contract on Rinkeby
+node deploy.js
+
+### Check with remix.ethereum.org
+* Make sure environment inside Run Tab has injected Web3
+* Inside At Address input box type in the address of 'Contract deployed to that you received after 'node deploy.js'
+
 ## Authors
 
 * **Bhupesh Bhatia**
