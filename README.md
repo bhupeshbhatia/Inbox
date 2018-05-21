@@ -17,6 +17,9 @@ Requires
 
 Add additional notes about how to deploy this on a live system
 
+### Running tests
+Requires npm install --save mocha ganache-cli web3@1.0.0-beta.26
+
 ### Inbox
 Created a small contract using technologies such as:
 * [Ganache] - TestRPC
